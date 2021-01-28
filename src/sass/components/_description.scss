@@ -13,6 +13,7 @@
   border: 2px solid #ff6b09;
   margin-right: 10px;
 }
+
 .description-title {
   font-weight: bold;
   font-size: 14px;
@@ -21,5 +22,18 @@
 @media screen and (min-width: 480px) {
   .description-container-style {
     display: flex;
+  }
+  .description-icons {
+    margin-right: 21px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .description-title {
+    font-size: 20px;
+  }
+  .section-description {
+    margin-top: 100px;
+    margin-bottom: 130px;
   }
 }
