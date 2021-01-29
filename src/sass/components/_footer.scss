@@ -76,6 +76,13 @@
   @media screen and (min-width: 1200px) {
     font-size: 30px;
   }
+  .link-footer-tel:hover,
+  .link-footer-tel:focus {
+    color: #ff6b09;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 .footer-icon-inst {
   display: flex;
