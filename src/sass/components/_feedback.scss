@@ -26,14 +26,7 @@
 .main-sliding__photos {
   display: block;
 }
-.person__container {
-  display: flex;
-  @media screen and (min-wdth: 320px) {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-}
+
 .photo-and-icon__conteiner {
   display: flex;
   @media screen and (min-wdth: 320px) {
