@@ -29,11 +29,16 @@
 
 .photo-and-icon__conteiner {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   @media screen and (min-wdth: 320px) {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
+}
+
+.person__conteiner {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media screen and (min-wdth: 320px) {
