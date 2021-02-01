@@ -104,8 +104,8 @@ body {
     color: var(--grey-color);
   }
 }
-.site__nav-item:hover .link,
-.site__nav-item:focus .link {
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 .site__nav {
