@@ -7,17 +7,18 @@
   padding-bottom: 77px;
   background-repeat: no-repeat;
   @media screen and (max-width: 767px) {
-    height: 618px;
     background-image: url('../images/wave/wave-min.png');
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
       background-image: url('../images/wave/wave@2x-min.png');
+      height: 618px;
     }
   }
   @media screen and (min-width: 768px) and (max-width: 1343px) {
     padding-top: 70px;
     padding-bottom: 114px;
+    // height: 618px;
     background-image: url('../images/wave/wave-tablet-min.png');
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
@@ -27,6 +28,7 @@
   }
 
   @media screen and (min-width: 1344px) {
+    // height: 878px;
     padding-top: 45px;
     padding-bottom: 106px;
     background-image: url('../images/wave/wave-desc-min.png');
