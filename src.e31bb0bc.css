@@ -767,7 +767,6 @@ body {
   font-size: 20px;
   line-height: 1.35;
   letter-spacing: 0.03em;
-  white-space: pre-line;
   color: var(--white-color);
   margin-bottom: 27px;
 }
@@ -812,6 +811,11 @@ body {
   display: none;
 }
 
+@media screen and (max-width: 767px) {
+  .problems__item:nth-child(4) {
+    width: 180px;
+  }
+}
 @media screen and (min-width: 768px) {
   .problems {
     padding-top: 59px;
@@ -859,6 +863,11 @@ body {
   }
 }
 @media screen and (min-width: 1344px) {
+  h1 {
+    animation: fadeInDown;
+    animation-duration: 2s;
+  }
+
   .problems {
     padding-top: 100px;
     height: 560px;
@@ -1428,20 +1437,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .features__title {
-    white-space: pre-line;
-  }
-}
-.features__title {
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 1.3;
-  letter-spacing: 0.03em;
-  color: var(--white-color);
-  margin-bottom: 30px;
-}
-@media screen and (max-width: 767px) {
-  .features__title {
-    white-space: pre-line;
+    max-width: 180px;
   }
 }
 .features__list {
