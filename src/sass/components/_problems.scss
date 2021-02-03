@@ -13,7 +13,7 @@
   &__title {
     @include font(800, 20px, 1.35);
     letter-spacing: 0.03em;
-    white-space: pre-line;
+    // white-space: pre-line;
     color: var(--white-color);
     margin-bottom: 27px;
   }
@@ -56,6 +56,11 @@
 
   &__img-cont {
     display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .problems__item:nth-child(4) {
+    width: 180px;
   }
 }
 
@@ -110,8 +115,12 @@
 // Destop
 
 @media screen and (min-width: 1344px) {
+  h1 {
+    animation: fadeInDown;
+    animation-duration: 2s;
+  }
   // h2 {
-  //   animation: pulse;
+  //   animation: fadeInUp;
   //   animation-duration: 2s;
   // }
   .problems {

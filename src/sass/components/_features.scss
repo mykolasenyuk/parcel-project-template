@@ -6,17 +6,7 @@
 
   &__title {
     @media screen and (max-width: 767px) {
-      white-space: pre-line;
-    }
-    @include font(800, 20px, 1.3);
-    letter-spacing: 0.03em;
-    color: var(--white-color);
-    margin-bottom: 30px;
-  }
-
-  &__title {
-    @media screen and (max-width: 767px) {
-      white-space: pre-line;
+      max-width: 180px;
     }
     @include font(800, 20px, 1.3);
     letter-spacing: 0.03em;
