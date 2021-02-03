@@ -1053,7 +1053,6 @@ body {
   .list_methods {
     display: flex;
     flex-wrap: wrap;
-    width: 768px;
   }
 
   .item_methods:nth-child(odd) {
